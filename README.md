@@ -1,4 +1,4 @@
-## SPLITREADER_v1.2
+## SPLITREADER_v2
 
 ### Installing Conda
 
@@ -8,7 +8,7 @@
 
 ### Getting the SPLITREADER
 
-`git clone https://github.com/baduelp/public.git`
+`git clone https://github.com/PEpiTE-team/SPLITREADER`
 
 ### Setting and running the SPLITREADER 
 
