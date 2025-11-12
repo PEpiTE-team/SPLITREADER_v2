@@ -1,13 +1,12 @@
-## SPLITREADER
+## SPLITREADER_v2
 
 Efficient detection of transposable element insertion polymorphisms between genomes using short-read sequencing data.
 
 _If you have any question or comment please reach me through the channels listed [there](http://pbaduel.com/about)._
 
-## [SPLITREADER](/SPLITREADER) 
 
-This public repository contains the scripts for running the SPLITREADER pipeline initially developped by [Quadrana et al. eLife 2016](https://doi.org/10.7554/eLife.15716),  further improved by [Baduel et al. MMB 2021](https://doi.org/10.1007/978-1-0716-1134-0_15), and implemented in [Baduel et al. Genome Biol 2021](https://doi.org/10.1186/s13059-021-02348-5)
-This folder contains a snakemake version of the SPLITREADER pipeline produced by [@aurelpetit](https://github.com/aurelpetit) for easier portability and management of dependencies. 
+This public repository contains the SPLITREADER pipeline initially developped by [Quadrana et al. eLife 2016](https://doi.org/10.7554/eLife.15716), further improved by [Baduel et al. MMB 2021](https://doi.org/10.1007/978-1-0716-1134-0_15), and implemented in [Baduel et al. Genome Biol 2021](https://doi.org/10.1186/s13059-021-02348-5)
+This v2 a improved version of the SPLITREADER pipeline, packaged using snakemake produced by [@aurelpetit](https://github.com/aurelpetit) for easier portability and management of dependencies. The main improvement is the adding of a filter removing the low-complexity reads, containing simple sequences (e.g. ATATATATATATAT) that were causing false positive. 
 
 ### For citation
 
@@ -28,7 +27,7 @@ This folder contains a snakemake version of the SPLITREADER pipeline produced by
 
 ### Getting the SPLITREADER
 
-`git clone https://github.com/PEpiTE-team/SPLITREADER`
+`git clone https://github.com/PEpiTE-team/SPLITREADER_v2`
 
 ### Setting and running the SPLITREADER 
 
