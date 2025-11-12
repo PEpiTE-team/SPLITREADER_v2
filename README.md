@@ -18,7 +18,8 @@ This folder contains a snakemake version of the SPLITREADER pipeline produced by
 **Quadrana L**, Bortolini Silveira A, Mayhew GF, LeBlanc C, Martienssen R, Jeddeloh JA, Colot V. The Arabidopsis thaliana mobilome and its impact at the species level. eLife, [10.1007/978-1-0716-1134-0_15](https://doi.org/10.7554/eLife.15716), 06/2016.
 
 
-## HOW-TO USE SPLITREADER
+#HOW-TO USE SPLITREADER
+
 
 ### Installing Conda
 
