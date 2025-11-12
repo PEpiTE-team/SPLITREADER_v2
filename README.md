@@ -15,7 +15,7 @@ This folder contains a snakemake version of the SPLITREADER pipeline produced by
 
 ### [SPLITREADER_v2](/SPLITREADER_v2)
 
-This folder contains a improved version of the SPLITREADER_v1.2, by adding a new filter based on the complexity of the reads, increasing significantly the precision of the tool.
+This folder contains a improved version of the SPLITREADER_v1.2, by adding a new filter based on the complexity of the reads, significantly increasing the precision of the tool.
 
 ## For citation
 
